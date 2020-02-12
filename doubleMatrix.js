@@ -9,16 +9,10 @@
 //your output for matrix C would be 
 
 const doubleMatrix = (matrix1, matrix2) => {
-  let matrixC = [[], []]
+ 
 
-  for (let i = 0; i < matrix1.length; i++) {
-    for (let j = 0; j < matrix2.length; j++) {
-      matrixC[i][j] =
-        matrix1[i][0] * matrix2[0][j] + matrix1[i][1] * matrix2[1][j]
-    }
-    
-  }
-  return matrixC
+ 
+  
 }
 
 console.log(
