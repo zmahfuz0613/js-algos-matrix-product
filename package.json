@@ -1,8 +1,8 @@
 {
-  "name": "groupArrays",
+  "name": "matrixProduct",
   "version": "1.0.0",
   "description": "",
-  "main": "groupArrays.js",
+  "main": "matrixProduct.js",
   "scripts": {
     "test": "jest"
   },

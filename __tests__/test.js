@@ -1,26 +1,18 @@
-let algos = require("../doubleMatrix.js")
+let algos = require("../matrixProduct.js")
 
+// MATRIX PRODUCT
 
-//DOUBLE MATRIX
-// create a new matrix based on the pattern below
-
-// C[0][0] = A[0][0] * B[0][0] + A[0][1] * B[1][0] = 1*3 + 2*1 =  5
-// C[0][1] = A[0][0] * B[0][1] + A[0][1] * B[1][1] = 1*2 + 2*1 =  4
-// C[1][0] = A[1][0] * B[0][0] + A[1][1] * B[1][0] = 3*3 + 2*1 = 11
-// C[1][1] = A[1][0] * B[0][1] + A[1][1] * B[1][1] = 3*2 + 2*1 =  8
-
-//your output for matrix C would be 
-
-test("create a new matrix based on the given pattern", () => {
-  expect(algos.doubleMatrix( [
-    [1, 2],
-    [3, 2]
-  ],
-  [
-    [3, 2],
-    [1, 1]
-  ])).toMatchObject([
-    [ 5, 4 ], [ 11, 8 ]
-  ])
+test("Create the new matrix product based on the given matrices", () => {
+  expect(algos.matrixProduct(
+    [
+      [1, 2],
+      [3, 4]
+    ],
+    [
+      [5, 6],
+      [7, 8]
+    ])).toMatchObject([
+      [19, 22], [43, 50]
+    ])
 
 })
