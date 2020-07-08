@@ -4,7 +4,9 @@
 
 "Matrix Product"
 
-_Difficulty Rating: Hard_
+> Langauge: JavaScript
+>
+> Difficulty: Hard
 
 ### Objectives
 
@@ -30,7 +32,12 @@ _i.e.:_
 ]
 ```
 
-_For a more detailed breakdown:_
+#### Notes: 
+
+- No `for` loops or unary incrementors/decrementors (`++` or `--`) allowed.
+- For a visual represtation of matrix multiplication, [check this website](http://matrixmultiplication.xyz/).
+
+For a more detailed breakdown about how this would work, consider the following: 
 
 ```js
 // C[0][0] = A[0][0] * B[0][0] + A[0][1] * B[1][0] = 1*3 + 2*1 =  5
@@ -39,16 +46,13 @@ _For a more detailed breakdown:_
 // C[1][1] = A[1][0] * B[0][1] + A[1][1] * B[1][1] = 3*2 + 2*1 =  8
 ```
 
+**(Do not use that pseudocode/breakdown to solve the algo. Really. Use the tools available to you.)**
+
 ### Getting Started
 
 - Fork and clone this repo.
 - Run `npm i` from within the repo.
 - Run `npm run test` or `npm test` to make sure the tests work. (They should fail.)
 - Get hacking on the problem and test when you think you've got it!
-
-### Notes
-
-- No `for` loops or unary incrementors/decrementors (`++` or `--`) allowed.
-- For a visual represtation of matrix multiplication, [check this website](http://matrixmultiplication.xyz/).
 
 Pull requests due by 11pm. Happy hacking!
